@@ -19,9 +19,18 @@ h2 {
 
 input[type=text] {
    width: 100%;
+   border: 1px solid;
 }
 
 .name-container {
+  line-height: 0px;
+}
+
+.filter-container {
+  line-height: 0px;
+}
+
+.calorie-container {
   line-height: 0px;
 }
 
@@ -30,11 +39,38 @@ input[type=text] {
   color: red;
 }
 
-.calorie-container {
-  line-height: 0px;
-}
-
 .calorie-container .input-prompt {
   text-align: right;
   color: red;
+}
+
+.btn-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.add-food {
+  border-radius: 10px;
+  border: 1px solid;
+  background: #00ace6;
+  width: 90px;
+  height: 25px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #b3b3b3;
 }
