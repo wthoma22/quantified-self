@@ -1,0 +1,40 @@
+.layout-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: left;
+  width: 100%;
+}
+
+input[type=text] {
+   width: 100%;
+}
+
+.name-container {
+  line-height: 0px;
+}
+
+.name-container .input-prompt {
+  text-align: right;
+  color: red;
+}
+
+.calorie-container {
+  line-height: 0px;
+}
+
+.calorie-container .input-prompt {
+  text-align: right;
+  color: red;
+}
