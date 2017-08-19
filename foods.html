@@ -14,20 +14,34 @@
       <h2>Manage Foods</h2>
       <div class="name-container">
         <p>Name</p>
-        <input type="text">
-        <p class="input-prompt"><em>Please enter a food name</em></p>
+        <input type="text" name="food-name" class="name-input">
+        <p class="input-prompt" id="name-prompt"><em>Please enter a food name</em></p>
       </div>
       <div class="calorie-container">
         <p>Calories</p>
-        <input type="text">
+        <input type="text" class="calories-input">
         <p class="input-prompt"><em>Please enter a calorie amount</em></p>
       </div>
       <div class="btn-container">
-
+        <button class="add-food">Add Food</button>
       </div>
-    </div>
-  </div>
+      <div class="filter-container">
+        <p>Filter by Name</p>
+        <input type="text">
+      </div>
+      <div class="table-container" id="foods-table">
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Calories</th>
+          </tr>
+            <!-- <td class ="btn"><button class="btn-remove-item">-</button></td> -->
+        </table>
+      </div>
 
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="main.bundle.js"></script>
 </body>
 </html>
