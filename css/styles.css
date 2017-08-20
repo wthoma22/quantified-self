@@ -57,13 +57,10 @@ td.btn {
 }
 
 .btn-remove-item {
-  display:block;
+  /*display:block;*/
   height: 22px;
   width: 22px;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-color: #ff3333;
-  color: white;
+  border: 1px solid black
   margin-left: 5px;
 }
 
@@ -179,7 +176,7 @@ th {
 
 td {
   text-align: right;
-  width: 50%
+  width: 54%
 }
 
 .main-dairy-header {
